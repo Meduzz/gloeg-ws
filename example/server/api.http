@@ -1,0 +1,13 @@
+### Push flag update
+POST /ws
+Host: localhost:8080
+Content-Type: application/json
+
+{
+    "kind":"flag.remote",
+    "flag": {
+        "kind": "string",
+        "name": "some.flag",
+        "value": "green"
+    }
+}
